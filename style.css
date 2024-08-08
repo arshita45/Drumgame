@@ -1,0 +1,50 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5rem;
+    color: #F5EDED;
+    text-align: center;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #6482AD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top:25px;
+    
+}
+
+.drum {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    color:black;
+    font-size:20px;
+}
+
+.w { background-image: url(images/tom1.png); }
+.a { background-image: url(images/tom2.png); }
+.s { background-image: url(images/tom3.png); }
+.d { background-image: url(images/tom4.png); }
+.j { background-image: url(images/snare.png); }
+.k { background-image: url(images/crash.png); }
+.l { background-image: url(images/kick.png); }
+
+footer {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
